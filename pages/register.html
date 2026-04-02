@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация - ElectroWorld MD</title>
+    <link rel="stylesheet" href="../assets/css/contacts.css">
+</head>
+<body>
+    <header><h1>Регистрация</h1></header>
+    <hr>
+    <nav>
+        <a href="../index.html">Главная</a> | 
+        <a href="catalog.html">Каталог</a> | 
+        <a href="cart.html">Корзина</a>
+        </nav>
+    <hr>
+    <main>
+        <form id="register-form">
+            <label>Ваше Имя:</label>
+            <input type="text" id="reg-name" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+            
+            <label>Email:</label>
+            <input type="text" id="reg-email" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+            
+            <label>Пароль:</label>
+            <input type="password" id="reg-password" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+            
+            <button type="submit">Зарегистрироваться</button>
+            
+            <p style="text-align: center; margin-top: 15px;">
+                Уже есть аккаунт? <a href="login.html">Войдите здесь</a>
+            </p>
+        </form>
+    </main>
+    <script src="../assets/js/register.js"></script>
+    <script src="../assets/js/auth.js"></script>
+</body>
+</html>
